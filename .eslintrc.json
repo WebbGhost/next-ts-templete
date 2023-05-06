@@ -1,6 +1,5 @@
 {
   "extends": [
-    "plugin:tailwindcss/recommended",
     "airbnb",
     "airbnb-typescript",
     "airbnb/hooks",
@@ -15,7 +14,7 @@
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "frontend/tsconfig.json"
+    "project": "client/tsconfig.json"
   },
   "plugins": ["react", "@typescript-eslint", "prettier", "tailwindcss"],
   "rules": {
@@ -25,4 +24,3 @@
     "tailwindcss/no-custom-classname": "off"
   }
 }
-

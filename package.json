@@ -9,7 +9,8 @@
     "lint": "next lint",
     "turbo": " next dev --turbo",
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
-    "check-types": "tsc --noEmit --pretty && tsc --project cypress --noEmit --pretty"
+    "check-types": "tsc --noEmit --pretty && tsc --project cypress --noEmit --pretty",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "13.4.1",
