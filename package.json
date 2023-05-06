@@ -2,6 +2,12 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": "Please Use Pnpm for avoid dependencies conflits",
+    "npm": "Please Use Pnpm for avoid dependencies conflits",
+    "pnpm": ">=8"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +19,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "client": "link:",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -21,12 +28,13 @@
     "@types/node": "20.1.0",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.4",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.1",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.40.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-next": "13.4.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
@@ -36,11 +44,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-tailwindcss": "^3.11.0",
     "husky": "^8.0.3",
+    "postcss": "8.4.23",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
-    "autoprefixer": "10.4.14",
     "tailwindcss": "3.3.2",
-    "postcss": "8.4.23",
     "typescript": "5.0.4"
   }
 }

@@ -1,6 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is Custom implementation of Next App with eslint prettier husky and all the good stuff added for better development experience and code maintainibilty.
 
-## Getting Started
+### Clone this repo
+
+```# clone the repo
+git clone https://github.com/WebbGhost/next-ts-templete.git --yourfoldername
+# Navigate to your folder
+cd yourfoldername
+
+
+```
+
+## Run the development server
 
 First, run the development server:
 
